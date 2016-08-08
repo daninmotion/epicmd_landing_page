@@ -1,0 +1,95 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/***Navbar***/
+.navbar-brand > img {
+    display: block;
+    max-width: 100px;
+    height: auto;
+}
+
+.red .btn.btn-default {
+	margin-top: 8px;
+	margin-right: 8px;
+	background-color: #d81159;
+
+	a {
+		color: white;
+	}
+}
+
+.blue .btn.btn-default {
+	margin-top: 8px;
+	margin-right: 8px;
+	background-color: #03d4da;
+
+	a {
+		color: white;
+	}
+}
+
+/***Section 1***/
+
+.container-fluid.header {
+	margin-top: 75px; 
+}
+
+.logo_hero > img {
+	max-width: 300px;
+	height: auto;
+}
+
+.col-md-6.col-md-offset-3.middle_title {
+	h3 {
+		text-align: center;
+	}
+}
+
+.call_to_action {
+	padding-top: 20px;
+	text-align: center;
+	list-style-type: none;
+
+	.left_button {
+		margin-right: 20px;
+	}
+
+	.btn {
+		border: 2px solid transparent;
+	}
+}
+
+.row.section_one {
+	margin-left: -100px;
+	padding-bottom: 500px;
+	position: relative;
+	min-height: 350px;
+	background: url(/assets/Family_on_couch_3217x1057.png) no-repeat scroll 0px 100% / cover transparent; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.left_button .btn-default {
+	color: #d81159;
+	border-color: #d81159;
+}
+
+.right_button .btn-default {
+	color: #03d4da;
+	border-color: #03d4da;
+}
+
+.call_to_action .btn-lg {
+	padding: 10px 35px;
+}
+
+
+
+
+
+
+
+
