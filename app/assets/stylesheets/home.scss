@@ -13,6 +13,7 @@
 	margin-top: 8px;
 	margin-right: 8px;
 	background-color: #d81159;
+	border-color: #d81159;
 
 	a {
 		color: white;
@@ -23,13 +24,14 @@
 	margin-top: 8px;
 	margin-right: 8px;
 	background-color: #03d4da;
+	border-color: #03d4da;
 
 	a {
 		color: white;
 	}
 }
 
-/***Section 1***/
+/***Section One***/
 
 .container-fluid.header {
 	margin-top: 75px; 
@@ -84,6 +86,108 @@
 
 .call_to_action .btn-lg {
 	padding: 10px 35px;
+}
+
+/***Section Two***/
+
+.section_two {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.section_two .middle_title {
+	text-align: center;
+}
+
+.section_two .row.images {
+	padding-top: 50px;
+}
+
+.section_two .left_content h2 {
+	color: #d81159;
+}
+
+.section_two .left_content ul {
+	list-style-type: none;
+}
+
+.section_two .left_content .learn_more .btn.btn-default {
+	background-color: white;
+	border-color: #d81159;
+	color: #d81159;
+	padding: 10px 35px;
+}
+
+.section_two .left_content .number_1 {
+	padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section_two .left_content .number_2 {
+  padding-bottom: 20px;
+}
+
+.section_two .left_content .number_3 {
+  padding-bottom: 20px;
+}
+
+.row .app_buttons {
+	padding-top: 50px;
+}
+
+/***Section Three***/
+
+.section_3 {
+	position: relative;
+	min-height: 700px;
+	background: url(/assets/section_three_background.jpg) no-repeat scroll 0px 100% / cover transparent; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section_3 h1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+	text-align: center;
+}
+
+.section_3 .list {
+	text-align: center;
+	color: white;
+}
+
+.section_3 .list ul {
+	line-height: 30px;
+}
+
+.section_3 .list li {
+	list-style-type: none;
+}
+
+/***Section Four ***/
+
+.section_4 .our_mission {
+	text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+img.image-responsive.center-block.heart {
+	max-width: 150px;
+	height: auto;
+}
+
+img.image-responsive.center-block.id_card {
+	max-width: 100px;
+	height: auto;
+}
+
+img.image-responsive.center-block.bell {
+	max-width: 150px;
+	height: auto;
 }
 
 
