@@ -66,7 +66,7 @@
 	margin-left: -100px;
 	padding-bottom: 500px;
 	position: relative;
-	min-height: 350px;
+	max-height: 350px;
 	background: url(/assets/Family_on_couch_3217x1057.png) no-repeat scroll 0px 100% / cover transparent; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -169,6 +169,10 @@
 
 /***Section Four ***/
 
+.section_4 {
+	padding-bottom: 100px;
+}
+
 .section_4 .our_mission {
 	text-align: center;
   padding-top: 50px;
@@ -190,6 +194,104 @@ img.image-responsive.center-block.bell {
 	height: auto;
 }
 
+.section_4 .our_mission_images h3 {
+	text-align: center;
+	color: #d81159;
+}
+
+.section_4 .our_mission_images p {
+	text-align: center;
+}
+
+/*** Section Five ***/
+
+.section_5 {
+	position: relative;
+	min-height: 500px;
+	background: url(/assets/section_five_background_1734x1154.jpg) no-repeat scroll 0px 100% / cover transparent; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section_5 .community {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.section_5 .community h1 {
+	color: white;
+	text-align: center;
+}
+
+.section_5 .community p {
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.section_5 .promote .btn-lg {
+	padding: 10px 35px;
+}
+
+.section_5 .promote .btn-default {
+	color: white;
+	background-color: transparent;
+	border-color: white;
+}
+
+/*** Section Six ***/
+
+.section_6 {
+	background-color: #f8f8f8;
+	padding-bottom: 800px;
+}
+
+.section_6 .knowledge_center {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.section_6 .knowledge_center h1 {
+	padding-bottom: 25px;
+}
+
+/*** Section Seven ***/
+
+.section_7 {
+	background-color: black;
+	padding-top: 50px;
+	padding-bottom: 100px
+}
+
+.section_7 p,li {
+	color: #03d4da;
+}
+
+.section_7 .row .col-md-4 h5 {
+	color: white;
+}
+
+.section_7 .row ul {
+	list-style-type: none;
+
+}
+
+.section_7 .search_form h5 {
+	color: white;
+}
+
+.section_7 .search_form .form-group {
+	margin-right: 150px;
+}
+
+.epicmd_footer_logo > img {
+  display: block;
+  max-width: 200px;
+  height: auto;
+}
 
 
 
