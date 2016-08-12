@@ -1,13 +1,13 @@
 <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <div class="container-fluid main-nav">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
+      </button> -->
       <a class="navbar-brand" href="#"><%= image_tag "epicmd_navbar_logo_1500x359.png", class: "img-responsive" %></a>
     </div>
 
@@ -17,10 +17,16 @@
         <li><a href="#">Health providers</a></li>
         <li><a href="#">Opportunities</a></li>
         <li class="red"><button class="btn btn-default"><a href="#">Register</a></button></li>
-        <li class="blue"><button class="btn btn-default"><a href="#">Register</a></button></li>
+        <li class="blue"><button class="btn btn-default"><a href="#">Login</a></button></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+ 
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                   <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
@@ -44,8 +50,8 @@
     		<h3>Your Own Private Doctor On-line, Anytime</h3>
     		<div class="call_to_action">
     			<p>
-    				<span class="left_button"><button type="button" class="btn btn-default btn-lg">LEARN MORE</button></span>
-    				<span class="right_button"><button type="button" class="btn btn-default btn-lg">START</button></span>
+    				<span class="left_button"><button type="button" class="btn btn-default btn-default__red btn-lg">LEARN MORE</button></span>
+    				<span class="right_button"><button type="button" class="btn btn-default btn-default__green btn-lg">START</button></span>
     			</p>
     		</div>
     	</div>
@@ -55,22 +61,22 @@
 
 <!-- section two -->
 <div class="section_two">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-3 middle_title">
+      <div class="col-md-12 middle_title">
         <h1>How Does EpicMD&trade; Work?</h1>
         <lead>What sets EpicMD™ apart is our innovative digital medicine platform, which will provide you with around-the-clock, direct access to the best virtual health care available.</lead>
       </div>
     </div>
     <div class="row images">
       <div class="col-md-6">
-        <%= image_tag "app_horizontally_flipped_1900x1361.jpg", class: "img-responsive center-block" %>
+        <%= image_tag "app_horizontally_flipped_739x631.jpg", class: "img-responsive center-block" %>
       </div>
       <div class="col-md-6 left_content">
         <h2>It's as easy as 1-2-3.</h2>
         <lead>The EpicMD&trade; platform, in partnership with our network of the world's leading physicians, will allow you to connect directly with a doctor at anytime from where it is most convenient for you.</lead>
         <ul>
-          <li class="number_1">1. Register yourself & your family.<br>
+          <li class="number_1"><span class="one">1. Register yourself & your family.</span><br>
             <p>Our doctors will review your medical history, listen to your concerns, and provide the treatment you need.</p>
           </li>
           <li class="number_2">2. Choose a doctor. <br>
@@ -79,13 +85,13 @@
           <li class="number_3">3. Meet With Your Doctor In A Virtual Office. <br>
             <p>Receives access to personalized medical support when and where you need it.</p>
           </li>
-          <li><span class="learn_more"><button type="button" class="btn btn-default btn-lg">Large button</button></span></li>
+          <li><span class="learn_more"><button type="button" class="btn btn-default btn-lg">LEARN MORE</button></span></li>
         </ul>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6 col-md-offset-3 app_buttons">
-        <%= image_tag "app_buttons_297x56.png", class: "img-responsive center-block" %>
+        <%= image_tag "app_buttons_280x47.jpg", class: "img-responsive center-block" %>
       </div>
     </div>
   </div>
@@ -94,9 +100,9 @@
 
 <!-- section three -->
 <div class="section_3">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-3">
+      <div class="col-md-12">
         <h1>EpicMD provides a wide range of care</h1>
       </div>
     </div>
@@ -140,9 +146,9 @@
 
 <!-- section four -->
 <div class="section_4">
-  <div class="conainer-fluid">
+  <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-3 our_mission">
+      <div class="col-md-12 our_mission">
         <h1>Our Mission</h1>
         <lead>
           Don’t want to sit in a crowded waiting room and get coughed on? Have a dozen errands to run after picking up the kids at school? Stuck at the office with back to back meetings? You need EpicMD™
@@ -176,9 +182,13 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="call_to_action">
-          <p>
+          <!-- <p>
             <span class="left_button"><button type="button" class="btn btn-default btn-lg">LEARN MORE</button></span>
             <span class="right_button"><button type="button" class="btn btn-default btn-lg">SIGN UP</button></span>
+          </p> -->
+          <p>
+            <span class="left_button"><button type="button" class="btn btn-default btn-default__red btn-lg">LEARN MORE</button></span>
+            <span class="right_button"><button type="button" class="btn btn-default btn-default__green btn-lg">SIGN UP</button></span>
           </p>
         </div>
       </div>
@@ -189,13 +199,15 @@
 <!-- section five -->
 <div class="section_5">
   <div class="container-fluid">
-    <div class="row">
+    <div class="row community_row">
       <div class="col-md-6 col-md-offset-3 community">
         <h1>Join The EpicMD&trade; Community</h1>
+      </div>
+      <div class="col-md-12 community">
         <p>
           EpicMD™ was born to make the world a healthier place for all. One of our core values is to ensure that the mobile health revolution benefits those at the bottom of the economic pyramid as it will for those at the top.           
         </p>
-        <span class="promote"><button type="button" class="btn btn-default btn-lg">Large button</button></span>
+        <span class="promote"><button type="button" class="btn btn-default btn-lg">PROMOTE</button></span>
       </div>
     </div>
   </div>
@@ -203,10 +215,12 @@
 
 <!-- section six-->
 <div class="section_6">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-3 knowledge_center">
         <h1>Knowledge Center</h1>
+      </div>
+      <div class="col-md-12 knowledge_center">
         <p>
           Not only do our members utilize around-the-globe access to elite healthcare service and support. But, they can also take advantage of of our knowledge center to stay informed on the latest and greatest in modern medicine. 
         </p>
@@ -217,7 +231,7 @@
 
 <!-- section seven -->
 <div class="section_7">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-md-3">
         <a class="epicmd_footer_logo" href="#"><%= image_tag "epicmd_footer_logo_946x227.png", class: "img-responsive center-block" %></a>
@@ -225,8 +239,8 @@
       <div class="col-md-6">
         <div class="row">
           <div class="col-md-4">
-            <h5>ABOUT US</h5>
             <ul>
+              <h5>ABOUT US</h5>
               <li>Our Mission</li>
               <li>Advisory board</li>
               <li>Investor relations</li>
@@ -235,8 +249,8 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <h5>THE PRODUCT</h5>
             <ul>
+              <h5>THE PRODUCT</h5>
               <li>How it works</li>
               <li>Benefits</li>
               <li>Our Doctors</li>
@@ -244,8 +258,8 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <h5>KNOWLEDGE CENER</h5>
             <ul>
+              <h5>KNOWLEDGE CENER</h5>
               <li>Media</li>
               <li>Blog</li>
               <li>Resources</li>
